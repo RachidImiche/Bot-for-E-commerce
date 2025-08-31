@@ -1,0 +1,1 @@
+//this is only for testing on consolelog without using whatsapp api

@@ -1,0 +1,87 @@
+{
+  "languages": {
+    "darija": {
+      "menu": {
+        "order": "1️⃣ بغيت نكوماندي",
+        "products": "2️⃣ نشوف المنتوجات",
+        "faq": "3️⃣ عندي سؤال",
+        "help": "4️⃣ مساعدة"
+      },
+      "order": {
+        "askName": "شنو سميتك ؟",
+        "askPhone": "عطيني رقم التيليفون ديالك:",
+        "askAddress":"فين غادي نوصل ليك الكوماند ؟ (العنوان كامل)",
+        "askProduct": "شنو بغيتي تشري؟",
+        "askQuantity": "شحال ؟",
+        "confirm": "✅ تأكيد الطلبية:\n👤 الاسم: {name}\n📱 التيليفون: {phone}\n📍 العنوان: {address}\n📦 المنتوج: {product}\n🔢 الكمية: {quantity}\n\nواش كولشي مزيان؟ (نعم/لا)"
+      },
+      "products": {
+        "categories": " اختار اشمن فئة :\n1️⃣ ملابس\n2️⃣ إلكترونيات\n3️⃣ مستحضرات التجميل",
+        "noProducts": "سمح لينا، مازال ماعندناش منتوجات ف هاد الفئة"
+      },
+      "faq": {
+        "menu": "شنو بغيتي تعرف؟\n1️⃣ أوقات التوصيل\n2️⃣ طرق الدفع\n3️⃣ سياسة الإرجاع",
+        "delivery": "📦 كانوصلو ف 24-48 ساعة للدار البيضاء (15 درهم)، و 48-72 ساعة للمدن الأخرى (30 درهم)",
+        "payment": "💰 كانقبلو الدفع عند الاستلام فقط (COD)",
+        "return": "🔄 عندك 7 أيام باش ترجع المنتوج ديالك إلا ماعجبكش"
+      },
+      "help":"◀باش تبدا من لول، كتب 'reset'. \n◀ كتب 'اشتراك' باش توصلك عروض خاصة.\n◀كتب 'الغاء الاشتراك' باش تحيدو.",
+      "general": {
+        "thanks": "الطلبية ديالك تسجلات 🎉،الفريق ديالنا غادي يتواصل معاك باش نكملو التاصيل.",
+        "cancel": "اوكي، الطلبية ديالك تلغات❌",
+        "askAgainMessage":"عفاك جاوب ب 'نعم' للتأكيد✅ اولا 'لا' للإلغاء.❌",
+        "error": "سمح ليا، مافهمتش. عاود جرب",
+        "voiceNoteReply": "شكرا على رسالتك الصوتية. الفريق ديالنا غادي يسمعها و يجاوبك ف أقرب وقت.",
+        "subscribeConfirm": "✅مرحبا بيك! راك مشتارك معانا، غادي تبقى توصل بالعروض ديالنا",
+        "unsubscribeConfirm": "تم إلغاء اشتراكك. ماغاديش تبقى توصل بالعروض.",
+        "alreadySubscribed": "راك ديجا مشتارك معانا.",
+        "offersmsg":"✨ عرض خاص ✨"
+
+      }
+    },
+    "french": {
+      "menu": {
+        "order": "1️⃣ Passer une commande",
+        "products": "2️⃣ Voir les produits",
+        "faq": "3️⃣ J'ai une question",
+        "help": "4️⃣ Aide"
+      },
+      "order": {
+        "askName": "Quel est votre nom?",
+        "askPhone": "Votre numéro de téléphone:",
+        "askAddress": "Où devons-nous livrer? (Adresse complète)",
+        "askProduct": "Que souhaitez-vous acheter?",
+        "askQuantity": "Combien d'unités?",
+        "confirm": "✅ Confirmation de commande:\n👤 Nom: {name}\n📱 Téléphone: {phone}\n📍 Adresse: {address}\n📦 Produit: {product}\n🔢 Quantité: {quantity}\n\nTout est correct? (oui/non)"
+      },
+      "products": {
+        "categories": "Choisissez une catégorie:\n1️⃣ Vêtements\n2️⃣ Électronique\n3️⃣ Cosmétiques",
+        "noProducts": "Désolé, nous n'avons pas encore de produits dans cette catégorie"
+      },
+      "faq": {
+        "menu": "Que voulez-vous savoir?\n1️⃣ Délais de livraison\n2️⃣ Modes de paiement\n3️⃣ Politique de retour",
+        "delivery": "📦 Nous livrons en 24-48h à Casablanca (15 DH), et 48-72h dans les autres villes (30 DH)",
+        "payment": "💰 Nous acceptons uniquement le paiement à la livraison (COD)",
+        "return": "🔄 Vous avez 7 jours pour retourner le produit s'il ne vous convient pas"
+      },
+     "help":"▶ Pour recommencer depuis le début, écrivez 'reset'.\n ▶ Taper 'abonner' ou bien 'subscribe' pour recevoire des offres spéciales.\n ▶ Taper 'désabonner' ou bien 'unsubscribe' pour vous désabonner.",
+      "general": {
+        "thanks": "Votre commande est enregistrée. 🎉 Notre équipe vous contactera bientôt pour finaliser les détails.",
+        "cancel": "D'accord, votre commande a été annulée❌",
+        "askAgainMessage":"Veuillez répondre par 'oui' pour confirmer✅ ou 'non' pour annuler❌.",
+        "error": "Désolé, je n'ai pas compris. Veuillez réessayer",
+        "voiceNoteReply": "Merci pour votre message audio. Notre équipe l'écoutera et vous répondra bientôt.",
+        "subscribeConfirm": "✅Vous êtes maintenant abonné ! Vous recevrez nos offres spéciales.",
+        "unsubscribeConfirm": "Vous avez été désabonné. Vous ne recevrez plus nos offres.",
+        "alreadySubscribed": "Vous êtes déjà abonné.",
+        "offersmsg":"✨ Offre Spéciale ✨"
+      }
+    }
+  },
+  "languageDetection": {
+    "prompt":  "🇲🇦 السلام / Bonjour\n\nاختار اللغة / Choisissez la langue:\n1️⃣ دارجة\n2️⃣ Français",
+  "invalidChoice": " اختار 1️⃣ أو 2️⃣،أولا كتب: 'دارجة' أو 'darija'\n Choisissez 1️⃣ ou 2️⃣, ou écrivez 'français' ou 'french'."
+  
+ }
+}
+
