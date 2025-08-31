@@ -1,13 +1,13 @@
 require('dotenv').config();
 const { google } = require('googleapis');
-const path = require('path');
+
 
 const GOOGLE_SHEET_ID = process.env.GOOGLE_SHEET_ID;
 
 // Function to authenticate with Google Sheets
 const getAuth = () => {
   const auth = new google.auth.GoogleAuth({
-    keyFile: path.join(__dirname, '../../credentials.json'), // Path to  credentials file
+    keyFile: /credentials.json,              
     scopes: 'https://www.googleapis.com/auth/spreadsheets',
   });
   return auth;
