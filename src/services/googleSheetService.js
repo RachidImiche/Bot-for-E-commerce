@@ -1,25 +1,32 @@
 require('dotenv').config();
 const { google } = require('googleapis');
-
+const path = require('path');
 
 const GOOGLE_SHEET_ID = process.env.GOOGLE_SHEET_ID;
 
-// Function to authenticate with Google Sheets
+// function to authenticate with Google Sheets
 const getAuth = () => {
+  //the correct path based on the environment
+  const isProduction = process.env.NODE_ENV === 'production';
+  const keyFilePath = isProduction
+    ? '/credentials.json' //absolute path on Koyeb(hosting service)
+    : path.join(__dirname, '../../credentials.json'); //  relative path for local development
+
+  console.log(`[Auth] Using credentials file from: ${keyFilePath}`);
+
   const auth = new google.auth.GoogleAuth({
-    keyFile: /credentials.json,              
+    keyFile: keyFilePath,
     scopes: 'https://www.googleapis.com/auth/spreadsheets',
   });
   return auth;
 };
 
-// Function to append a new row of data
+// function to append a new row of data to the Google Sheet
 const appendToSheet = async (orderData) => {
   try {
     const auth = getAuth();
     const sheets = google.sheets({ version: 'v4', auth });
 
-    // the data to append, in the correct column order
     const values = [
       [
         new Date().toISOString(), // Timestamp
@@ -34,7 +41,7 @@ const appendToSheet = async (orderData) => {
 
     const response = await sheets.spreadsheets.values.append({
       spreadsheetId: GOOGLE_SHEET_ID,
-      range: 'A1', // Appends to the first empty row of the sheet
+      range: 'A1',
       valueInputOption: 'USER_ENTERED',
       resource: {
         values: values,
@@ -49,4 +56,3 @@ const appendToSheet = async (orderData) => {
 };
 
 module.exports = { appendToSheet };
-
