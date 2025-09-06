@@ -4,10 +4,11 @@ const messages = require('../data/messages.json');
 async function handleMainMenu(session, userMessage, From) {
     const lang = session.language;
     const menu = messages.languages[lang].menu;
+    const welcomeMessage = messages.languages[lang].welcome;
 
     // If user just entered main menu ,show full menu
     if (!userMessage || userMessage.trim() === '') {
-        const fullMenuMessage = `${menu.order}\n${menu.products}\n${menu.faq}\n${menu.help}`;
+        const fullMenuMessage = `${welcomeMessage}\n\n${menu.order}\n${menu.products}\n${menu.faq}\n${menu.help}`;
         await sendMessage(From, fullMenuMessage);
         return;
     }

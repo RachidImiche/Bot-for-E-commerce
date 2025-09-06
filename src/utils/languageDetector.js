@@ -3,7 +3,7 @@
 // Common Darija words for detection
 const darijaKeywords = [
     'salam', 'السلام', 'شنو', 'بغيت', 'كيفاش', 'فين', 'واش', 'مزيان',
-    'شكرا',, 'دابا', 'غادي', 'ديال', 'عندي', 'ماشي', 'هاد'
+    'شكرا',, 'دابا', 'غادي', 'ديال', 'عندي', 'ماشي', 'هاد','سلام'
 ];
 
 // common French words for detection
