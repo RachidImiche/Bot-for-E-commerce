@@ -36,7 +36,7 @@ npm install
 
 ```
 
-### 1. Configure Environment
+### 2. Configure Environment
 
 Create a .env file in the project root and add your credentials:
 
