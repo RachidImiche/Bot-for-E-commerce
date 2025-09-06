@@ -9,6 +9,7 @@
         "help": "4️⃣ مساعدة"
       },
       "order": {
+        "askAgainMessage":"عفاك جاوب ب 'نعم' للتأكيد✅ اولا 'لا' للإلغاء.❌",
         "askName": "شنو سميتك ؟",
         "askPhone": "عطيني رقم التيليفون ديالك:",
         "askAddress":"فين غادي نوصل ليك الكوماند ؟ (العنوان كامل)",
@@ -49,6 +50,7 @@
         "help": "4️⃣ Aide"
       },
       "order": {
+        "askAgainMessage":"Veuillez répondre par 'oui' pour confirmer✅ ou 'non' pour annuler❌.",
         "askName": "Quel est votre nom?",
         "askPhone": "Votre numéro de téléphone:",
         "askAddress": "Où devons-nous livrer? (Adresse complète)",
